@@ -20,6 +20,6 @@ h1 {
     justify-content: center;
 }
 
-p {
-    padding-left: 20px;
+main p {
+    padding: 5px 10px 5px 10px;
 }
