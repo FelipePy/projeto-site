@@ -5,28 +5,55 @@
 }
 
 body {
-    background: rgb(192, 108, 108);
+    background: rgb(241, 145, 145);
 }
 
 main {
-
     width: 700px;
     margin: auto;
+    margin-top: 2vh;
+    background-color: rgb(179, 166, 166);
 
     box-shadow: 0.2px 3px 3px 5px rgba(0, 0, 0, 0.39);
+    border-radius: 20px;
+
 }
 
 header {
     padding: 20px 20px 40px;
     background-color: rgb(148, 141, 141);
-    border-radius: 0px 0px 15px 15px;
+    border-radius: 20px 20px 15px 15px;
+}
+
+header h1 {
+    margin-top: 30px;
+    font-size: 50px;
 }
 
 
 article.cursos {
+    border-radius: 10px;
     margin-top: 20px;
     padding: 30px;
     background-color: #73a366;
+    font-size: 20px;
+}
+
+article.cursos a {
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: rgb(240, 233, 233);
+    background: #83b376;
+
+    margin: 20px;
+    margin-bottom: 0;
+
+    font-size: 30px;
+    border-radius: 7px;
 }
 
 img.lado {
