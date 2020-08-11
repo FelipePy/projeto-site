@@ -5,23 +5,28 @@
 }
 
 body {
-    background: #976dbe;
+    background: rgb(192, 108, 108);
 }
 
 main {
-    background: white;
-    width: 100vw;
+
+    width: 700px;
     margin: auto;
 
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.39);
+    box-shadow: 0.2px 3px 3px 5px rgba(0, 0, 0, 0.39);
 }
 
 header {
     padding: 20px 20px 40px;
+    background-color: rgb(148, 141, 141);
+    border-radius: 0px 0px 15px 15px;
 }
 
+
 article.cursos {
+    margin-top: 20px;
     padding: 30px;
+    background-color: #73a366;
 }
 
 img.lado {
