@@ -59,6 +59,7 @@ article.cursos a {
 img.lado {
     float: right;
     padding-right: 40px;
+    padding-left: 20px;
 }
 
 h1 {
