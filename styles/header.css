@@ -35,7 +35,8 @@ header h1 {
 
 header a {
     transition: 0.4s;
-    border-radius: 45%;
+    border-radius: 10%;
+    margin-right: 150px;
 }
 
 header a:hover {
